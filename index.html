@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>死</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .container {
-      text-align: center;
-    }
-    h1 {
-      font-size: 36px;
-      margin-bottom: 20px;
-      color: #007bff;
-    }
-    p {
-      font-size: 18px;
-      line-height: 1.6;
-    }
-    .btn {
-      display: inline-block;
-      padding: 12px 24px;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 4px;
-      transition: background-color 0.3s ease;
-    }
-    .btn:hover {
-      background-color: #0056b3;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>死</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: black;
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAV0lEQVR42mJ89/b4PwMMBgVN58CpUCB3A2sEBU8EBsKBAwV2h2Qd2Baog8OGIAAIAAOjZ0e4BiywAAAABJRU5ErkJggg==");
+        }
+
+        #gif-container {
+            max-width: 80%;
+            max-height: 80%;
+        }
+
+        #text-placeholder {
+            margin-top: 20px;
+            color: white;
+        }
+
+        #dummy-link {
+            margin-top: 50px;
+            text-decoration: underline;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Willkommen auf meiner Huuuz Seite!</h1>
-    <p>
-      Reifen vs Kontaktlinse, wer gewinnt? husten
-    </p>
-    <a class="btn" href="#">Mehr erfahren</a>
-  </div>
+    <div id="gif-container">
+        <!-- Hier wird das GIF erscheinen, wenn Sie den Link einfügen -->
+        <!-- Sie können den Link in das src-Attribut einfügen -->
+        <!-- Beispiel: <img src="link_zu_ihrem_gif.gif" alt="Platzhalter-GIF"> -->
+        <img src="" alt="https://media.tenor.com/iDjcDO2Kv7UAAAAS/bob-eye-horror-evil.gif">
+    </div>
+
+    <div id="text-placeholder">
+        <!-- Hier können Sie Ihren Text einfügen -->
+        <!-- Beispiel: <p>Mein Text hier</p> -->
+        <p>good luck.</p>
+    </div>
+
+    <div id="dummy-link">
+        <!-- Hier können Sie den Link für den Dummy-Hyperlink festlegen -->
+        <!-- Beispiel: <a href="https://www.example.com">Dummy-Link</a> -->
+        <a href="#">https://www.youtube.com/@4ronjo</a>
+    </div>
 </body>
 </html>
